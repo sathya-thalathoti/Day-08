@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 8</title>
+    <!-- <style>
+        table,td{
+            border: 1px solid;
+        }
+    </style> -->
+  </head>
+  <body>
+    <h2>General Admission Registration</h2>
+    <form>
+      <table frame="border" rules="all">
+        <tr>
+          <td>Name</td>
+          <td colspan="3">
+            <input type="text" id="fname" size="63" placeholder="First name" />
+          </td>
+          <td colspan="3">
+            <input type="text" placeholder="Last name" size="63"
+          </td>
+        </tr>
+        <!-- <tr>
+                <td colspan="7"></td>
+            </tr> -->
+        <tr>
+          <td>Email</td>
+          <td colspan="6">
+            <input type="email" placeholder="sample@example.com" size="133" />
+          </td>
+        </tr>
+        <!-- <tr></tr> -->
+        <tr>
+          <td>Gender</td>
+          <td colspan="3">
+            <input type="radio" name="gender" value="male" id="male" /><label
+              for="male"
+              >Male</label
+            >
+          </td>
+          <td colspan="3">
+            <input
+              type="radio"
+              name="gender"
+              value="female"
+              id="female"
+            /><label for="female">Female</label>
+          </td>
+        </tr>
+        <!-- <tr></tr> -->
+        <tr>
+          <td>Phone</td>
+          <td colspan="6"><input type="tel" size="133" /></td>
+        </tr>
+        <!-- <tr></tr> -->
+        <tr>
+          <td>Emergency Contact</td>
+          <td colspan="6"><input type="tel" size="133" /></td>
+        </tr>
+        <!-- <tr></tr> -->
+        <tr>
+          <td>Do you require parking?</td>
+          <td colspan="3">
+            <input type="radio" name="parking" value="yes" id="yes" /><label
+              for="yes"
+              >Yes</label
+            >
+          </td>
+          <td colspan="3">
+            <input type="radio" name="parking" value="no" id="no" /><label
+              for="no"
+              >No</label
+            >
+          </td>
+        </tr>
+        <!-- <tr></tr> -->
+        <tr>
+          <td>What is your room preference?</td>
+          <td colspan="2">
+            <input type="radio" name="room" value="single" id="single" /><label
+              for="single"
+              >Single Room</label
+            >
+          </td>
+          <td colspan="2">
+            <input type="radio" name="room" value="shared" id="shared" /><label
+              for="shared"
+              >Shared Room</label
+            >
+          </td>
+          <td colspan="2">
+            <input
+              type="radio"
+              name="room"
+              value="notrequired"
+              id="notrequired"
+            /><label for="notrequired">No Room Needed</label>
+          </td>
+        </tr>
+        <!-- <tr></tr> -->
+        <tr>
+          <td>Do you have dietary restrictions?</td>
+          <td>
+            <input
+              type="radio"
+              name="restrictions"
+              value="none"
+              id="none"
+            /><label for="none">None</label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              name="restrictions"
+              value="vegetarian"
+              id="vegetarian"
+            /><label for="vegetarian">Vegetarian</label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              name="restrictions"
+              value="glutten"
+              id="glutten"
+            /><label for="glutten">Glutten Allergy</label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              name="restrictions"
+              value="lactose"
+              id="lactose"
+            /><label for="lactose">Lactose Allergy</label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              name="restrictions"
+              value="nut"
+              id="nut"
+            /><label for="nut">Nut Allergy</label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              name="restrictions"
+              value="shellfish"
+              id="shellfish"
+            /><label for="shellfish">Shellfish Allergy</label>
+          </td>
+        </tr>
+        <!-- <tr></tr> -->
+        <tr>
+          <td>What activities will you attend?</td>
+          <td colspan="2">
+            <input
+              type="checkbox"
+              name="activity"
+              id="awards"
+              value="awards"
+            /><label for="awards">Awards Gala Dinner</label>
+          </td>
+          <td colspan="2">
+            <input
+              type="checkbox"
+              name="activity"
+              id="luncheon"
+              value="luncheon"
+            /><label for="luncheon">Luncheon</label>
+          </td>
+          <td colspan="2">
+            <input
+              type="checkbox"
+              name="activity"
+              id="hall"
+              value="hall"
+            /><label for="hall">Town Hall</label>
+          </td>
+        </tr>
+        <!-- <tr></tr> -->
+        <tr>
+          <td>
+            Do you want to see the list of other attendees and their profiles on
+            official event app?
+          </td>
+          <td colspan="3">
+            <input type="radio" name="profiles" value="yes" id="yeah" /><label
+              for="yeah"
+              >Yes</label
+            >
+          </td>
+          <td colspan="3">
+            <input type="radio" name="profiles" value="no" id="nah" /><label
+              for="nah"
+              >No</label
+            >
+          </td>
+        </tr>
+        <!-- <tr></tr> -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><input type="submit" value="Submit" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
